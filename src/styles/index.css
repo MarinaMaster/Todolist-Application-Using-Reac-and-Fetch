@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ody {
+    margin-top:100px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c7507b49671425.58bb77365c8ed.jpg);
+}
+.App {
+    text-align: center;   
+}
+
+.container {
+    background-color: aliceblue;
+    display:block;
+
+}
+
+ul{
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 25rem;
+    width:50%;
+    justify-content: space-between;
+
+}
+ul li {
+    border: 1px solid rgb(251, 176, 176);
+    list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    margin: 12px 0;
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+    height:45px;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color:rgb(242, 189, 197);
+    font-weight: 100;
+}
+.quantity {
+    background-color: white;
+    width:50%;
+    text-align: center;
+    margin-left: 25rem;
+    border: 1px solid rgb(251, 176, 176);
+    height:45px;
+    padding:15px;
+    text-align: left;
+    color:grey;
+}
+input{
+    border: 1px solid rgb(251, 176, 176);
+    width:50%;
+    height:45px;
+
+
+}
+.delete-button{
+    font-size: 10px;
+    margin-left: 10px;
+    border:none;
+    border-radius: 5px;
+    text-align: right;
+    background-color:rgb(242, 189, 197)
+}
+
+.two {
+    background-color: white;
+    border: none;
+
+}
+
+.add-button {
+    background-color:rgb(242, 189, 197);
+    margin-top: 15px;
+}
